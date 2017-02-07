@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Factors {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter The Num");
+		int f =sc.nextInt();
+		int i = 1;
+			
+		while(i <= f) 
+		{
+			if(f % i == 0)
+				System.out.println(i + " is a factor");
+		    i++;
+		}
+	}
+
+}

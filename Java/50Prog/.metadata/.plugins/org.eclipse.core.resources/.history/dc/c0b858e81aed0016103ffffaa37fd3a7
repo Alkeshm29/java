@@ -1,0 +1,22 @@
+import java.util.Random; 
+import java.util.regex.Pattern; 
+
+public class Flip_Coin { 
+
+    public static void main( String [] args ) { 
+    	
+    	int loopCount = 1;
+    	double result;
+    	while(loopCount < 10)
+    	{
+    	result = Math.random();
+    	if(result <= .5)
+    	System.out.println("The result is heads.");
+    	else
+    	System.out.println("The result is tails.");
+    	loopCount = loopCount + 1;
+    	}
+
+    	}
+    
+}
